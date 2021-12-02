@@ -10,11 +10,11 @@
 			>Hi There, I'am Nirajan Karki
 			</h1>
 			<p
-				class="mt-3 font-crimson md:font-serif  sm:text-xl text-center sm:text-left font-semibold leading-none text-gray-400"
+				class="font-crimson md:font-serif  sm:text-xl text-center sm:text-left font-semibold leading-none text-gray-400 p-4"
 			>
 			Full-Stack Developer & Blockchain Enthusiast
 			</p>
-			<div class="flex justify-center sm:block">
+			<div class="flex justify-center sm:block pl-8">
 				<a
 					download="Nirajan's Resume.pdf"
 					href="/files/Nirajan's Resume.pdf"
@@ -25,7 +25,7 @@
 						data-feather="arrow-down-circle"
 						class="ml-0 sm:ml-1 mr-2 sm:mr-3 w-5 sm:w-6"
 					></i>
-					<span class="text-sm sm:text-lg hover:text-whit font-semibold">Download CV</span></a
+					<span class="text-lg sm:text-xl hover:text-whit font-semibold">Download CV</span></a
 				>
 			</div>
 		</div>

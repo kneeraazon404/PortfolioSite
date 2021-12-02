@@ -78,7 +78,7 @@
 					<router-link
 					to="/about"
 					class="block text-left text-lg font-medium text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
-					aria-label="Projects"
+					aria-label="about"
 					>About</router-link
 				>
 					<router-link
@@ -88,9 +88,9 @@
 					>Projects</router-link
 				>
 					<router-link
-					to="/projects"
+					to="/services"
 					class="block text-left text-lg font-medium text-primary-dark dark:text-ternary-light hover:text-secondary-dark dark:hover:text-secondary-light  sm:mx-4 mb-2 sm:py-2"
-					aria-label="Projects"
+					aria-label="services"
 					>Services</router-link
 				>	
 					<a

@@ -1,12 +1,13 @@
 <template>
 	<div class="block sm:flex sm:gap-10 mt-10 sm:mt-20">
 		<!-- About me portfolio image start -->
-		<div class="w-full sm:w-1/4 mb-7 sm:mb-0">
+		<div class="w-full sm:w-1/4 mb-7 sm:mb-0 text-white">
 			<img
 				src="@/assets/images/pp.jpg"
 				class="rounded-xl w-96"
 				alt=""
 			/>
+		
 		</div>
 		<!-- About me portfolio image end -->
 

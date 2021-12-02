@@ -24,7 +24,7 @@ export default {
 	},
 	data: () => {
 		return {
-			clientsHeading: 'Some of the brands I worked with',
+			clientsHeading: 'Some of the brands I !worked with',
 			clients: [
 				{
 					id: 1,
