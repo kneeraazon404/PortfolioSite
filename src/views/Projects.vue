@@ -1,13 +1,5 @@
-<template>
-	<div class="container mx-auto">
-		<!-- Projects start -->
-		<ProjectsGrid />
-		<!-- ProjectsGrid end -->
-	</div>
-</template>
-
 <script>
-import ProjectsGrid from '../components/ProjectsGrid.vue';
+import ProjectsGrid from '../components/projects/ProjectsGrid.vue';
 
 export default {
 	name: 'Projects',
@@ -16,5 +8,11 @@ export default {
 	},
 };
 </script>
+
+<template>
+	<div class="container mx-auto">
+		<ProjectsGrid />
+	</div>
+</template>
 
 <style scoped></style>

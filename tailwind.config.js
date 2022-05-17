@@ -30,9 +30,6 @@ module.exports = {
 				},
 			},
 		},
-		fontFamily: {
-			'crimson': ['Crimson Pro', 'serif',],
-		},
 	},
 	variants: {
 		extend: { opacity: ['disabled'] },

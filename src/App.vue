@@ -1,31 +1,7 @@
-<template>
-	<div :class="appTheme" class="pt-0.5">
-		<!-- App header -->
-		<AppHeader />
-
-		<!-- Render active component contents with transition -->
-		<transition name="fade" mode="out-in">
-			<router-view :theme="appTheme" />
-		</transition>
-
-		<back-to-top
-			visibleoffset="500"
-			right="40px"
-			bottom="40px"
-			class="shadow-lg"
-		>
-			<i data-feather="arrow-up"></i>
-		</back-to-top>
-
-		<!-- App footer -->
-		<AppFooter />
-	</div>
-</template>
-
 <script>
 import feather from 'feather-icons';
-import AppHeader from './components/AppHeader';
-import AppFooter from './components/AppFooter';
+import AppHeader from './components/shared/AppHeader';
+import AppFooter from './components/shared/AppFooter';
 
 export default {
 	components: {
@@ -46,6 +22,31 @@ export default {
 };
 </script>
 
+<template>
+	<div :class="appTheme" class="pt-0.5">
+		<!-- App header -->
+		<AppHeader />
+
+		<!-- Render active component contents with vue transition -->
+		<transition name="fade" mode="out-in">
+			<router-view :theme="appTheme" />
+		</transition>
+
+		<!-- Scroll to top -->
+		<back-to-top
+			visibleoffset="500"
+			right="30px"
+			bottom="20px"
+			class="shadow-lg"
+		>
+			<i data-feather="chevron-up"></i>
+		</back-to-top>
+
+		<!-- App footer -->
+		<AppFooter />
+	</div>
+</template>
+
 <style>
 #app {
 	font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -55,7 +56,11 @@ export default {
 }
 
 .vue-back-to-top {
-	@apply p-2 sm:p-4 bg-indigo-500 hover:bg-indigo-600 text-white;
+	@apply p-2 bg-indigo-500 hover:bg-indigo-600 text-white transition
+        duration-500
+        ease-in-out
+        transform
+        hover:-translate-y-1 hover:scale-110;
 	border-radius: 50%;
 	font-size: 22px;
 	line-height: 22px;

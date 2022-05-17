@@ -1,27 +1,7 @@
-<template>
-	<div>
-		<div class="container mx-auto">
-			<!-- About me start -->
-			<AboutMe />
-			<!-- About me end -->
-		</div>
-
-		<!-- About counter start -->
-		<AboutCounter />
-		<!-- About counter end -->
-
-		<div class="container mx-auto">
-			<!-- About counter start -->
-			<AboutClients />
-			<!-- About counter end -->
-		</div>
-	</div>
-</template>
-
 <script>
-import AboutMe from '@/components/AboutMe';
-import AboutCounter from '@/components/AboutCounter';
-import AboutClients from '@/components/AboutClients';
+import AboutMe from '@/components/about/AboutMe';
+import AboutCounter from '@/components/about/AboutCounter';
+import AboutClients from '@/components/about/AboutClients';
 import feather from 'feather-icons';
 
 export default {
@@ -43,5 +23,22 @@ export default {
 	methods: {},
 };
 </script>
+
+<template>
+	<div>
+		<!-- About me -->
+		<div class="container mx-auto">
+			<AboutMe />
+		</div>
+
+		<!-- About counter -->
+		<AboutCounter />
+
+		<!-- About counter -->
+		<div class="container mx-auto">
+			<AboutClients />
+		</div>
+	</div>
+</template>
 
 <style scoped></style>
