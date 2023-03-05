@@ -7,7 +7,7 @@ const routes = [
 		name: 'Home',
 		component: Home,
 		meta: {
-			title: 'Home - Nirajan Karki',
+			title: 'Stoman - Home',
 		},
 	},
 	{
@@ -19,7 +19,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "about" */ '../views/About.vue'),
 		meta: {
-			title: 'Home - Nirajan Karki',
+			title: 'Stoman - About',
 		},
 	},
 	{
@@ -31,7 +31,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "projects" */ '../views/Projects.vue'),
 		meta: {
-			title: 'Projects - Nirajan Karki',
+			title: 'Stoman - Projects',
 		},
 	},
 	{
@@ -45,7 +45,7 @@ const routes = [
 				/* webpackChunkName: "projects" */ '../views/SingleProject.vue'
 			),
 		meta: {
-			title: 'Single Project - Nirajan Karki',
+			title: 'Stoman - Single Project',
 		},
 	},
 	{
@@ -57,7 +57,7 @@ const routes = [
 		component: () =>
 			import(/* webpackChunkName: "projects" */ '../views/Contact.vue'),
 		meta: {
-			title: 'Contact - Nirajan Karki',
+			title: 'Stoman - Contact',
 		},
 	},
 ];
@@ -74,7 +74,7 @@ export default router;
 
 /**
  * Below code will display the component/active page title
- * Powered by: kneeraazon 
+ * Powered by: Nangialai Stoman
  */
 
 // This callback runs before every route change, including on page load.
@@ -99,11 +99,9 @@ router.beforeEach((to, from, next) => {
 		.find((r) => r.meta && r.meta.metaTags);
 
 	// If a route with a title was found, set the document (page) title to that value.
-	if (nearestWithTitle)
-	{
+	if (nearestWithTitle) {
 		document.title = nearestWithTitle.meta.title;
-	} else if (previousNearestWithMeta)
-	{
+	} else if (previousNearestWithMeta) {
 		document.title = previousNearestWithMeta.meta.title;
 	}
 
