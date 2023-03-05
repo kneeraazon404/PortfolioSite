@@ -30,12 +30,18 @@ export default {
 <template>
   <div class="block sm:flex sm:gap-10 mt-10 sm:mt-16">
     <!-- About profile image -->
-    <div class="w-full sm:w-1/4 mb-3 sm:mb-0">
-      <img src="@/assets/images/profile.png" class="rounded-xl w-64" alt="" />
+    <div class="w-full sm:w-1/4 mb-3 sm:mb-0 mt-16">
+      <img src="@/assets/images/profile.jpg" class="rounded-3xl w-64" alt="" />
     </div>
 
     <!-- About details -->
     <div class="w-full sm:w-3/4 text-left">
+      <h1 class="text-2xl font-medium mt-1 text-ternary-dark dark:text-ternary-light">
+        More About Me
+      </h1>
+
+      <hr class="my-2 w-full lg:w-1/4" />
+
       <p
         v-for="bio in bios"
         :key="bio.id"

@@ -26,14 +26,14 @@ export default {
         <counter
           ref="counter"
           :startAmount="0"
-          :endAmount="6"
+          :endAmount="5"
           :duration="1"
           :autoinit="true"
           @finished="alert(`Counting finished!`)"
           class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
           aria-label="About Status Counter"
         />
-        <span class="block text-md text-ternary-dark dark:text-ternary-light">
+        <span class="block text-xl text-ternary-dark dark:text-ternary-light">
           {{ experienceTitle }}
         </span>
       </div>
@@ -50,7 +50,7 @@ export default {
           @finished="alert(`Counting finished!`)"
           class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
         />
-        <span class="block text-md text-ternary-dark dark:text-ternary-light">{{
+        <span class="block text-xl text-ternary-dark dark:text-ternary-light">{{
           githubTitle
         }}</span>
       </div>
@@ -67,7 +67,7 @@ export default {
           @finished="alert(`Counting finished!`)"
           class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
         />
-        <span class="block text-md text-ternary-dark dark:text-ternary-light">
+        <span class="block text-xl text-ternary-dark dark:text-ternary-light">
           {{ feedbackTitle }}
         </span>
       </div>
@@ -77,13 +77,13 @@ export default {
         <counter
           ref="counter"
           :startAmount="0"
-          :endAmount="56"
+          :endAmount="46"
           :duration="1"
           :autoinit="true"
           @finished="alert(`Counting finished!`)"
-          class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
+          class="font-general-medium text-4xl font-medium text-secondary-dark dark:text-secondary-light mb-2"
         />
-        <span class="block text-md text-ternary-dark dark:text-ternary-light">
+        <span class="block text-xl text-ternary-dark dark:text-ternary-light">
           {{ projectsTitle }}
         </span>
       </div>

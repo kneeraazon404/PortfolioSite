@@ -13,7 +13,7 @@ export default function useThemeSwitcher() {
 
 	// Light Theme Function
 	function setLightTheme() {
-		currentTheme.value = 'light';
+		currentTheme.value = 'dark';
 
 		process.isClient && localStorage.setItem('theme', 'light');
 	}

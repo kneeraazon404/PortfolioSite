@@ -7,47 +7,47 @@ export default {
   },
   data: () => {
     return {
-      clientsHeading: "Some of the brands I have worked with",
+      clientsHeading: "Some of the technologies I work with",
       clients: [
         {
           id: 1,
-          title: "Amazon",
-          img: require("@/assets/images/brands/amazon_gray.png"),
+          title: "django",
+          img: require("@/assets/images/brands/python.png"),
         },
         {
-          id: 2,
-          title: "Sony",
-          img: require("@/assets/images/brands/sony_gray.png"),
+          id: 1,
+          title: "django",
+          img: require("@/assets/images/brands/python.png"),
         },
         {
-          id: 3,
-          title: "Adidas",
-          img: require("@/assets/images/brands/adidas_gray.png"),
+          id: 1,
+          title: "python",
+          img: require("@/assets/images/brands/python.png"),
         },
         {
-          id: 4,
-          title: "FILA",
-          img: require("@/assets/images/brands/fila_gray.png"),
+          id: 1,
+          title: "python",
+          img: require("@/assets/images/brands/python.png"),
         },
         {
-          id: 5,
-          title: "NB",
-          img: require("@/assets/images/brands/nb_gray.png"),
+          id: 1,
+          title: "python",
+          img: require("@/assets/images/brands/python.png"),
         },
         {
-          id: 6,
-          title: "SAMSUNG",
-          img: require("@/assets/images/brands/samsung_gray.png"),
+          id: 1,
+          title: "python",
+          img: require("@/assets/images/brands/python.png"),
         },
         {
-          id: 7,
-          title: "CANON",
-          img: require("@/assets/images/brands/canon_gray.png"),
+          id: 1,
+          title: "python",
+          img: require("@/assets/images/brands/python.png"),
         },
         {
-          id: 7,
-          title: "PUMA",
-          img: require("@/assets/images/brands/puma_gray.png"),
+          id: 1,
+          title: "python",
+          img: require("@/assets/images/brands/python.png"),
         },
       ],
     };
@@ -62,7 +62,7 @@ export default {
     >
       {{ clientsHeading }}
     </p>
-    <div class="grid grid-cols-2 sm:grid-cols-4 mt-10 sm:mt-14 gap-2">
+    <div class="grid grid-cols-3 sm:grid-cols-4 mt-2 sm:mt-14 gap-8">
       <AboutClientSingle v-for="client in clients" :key="client.id" :client="client" />
     </div>
   </div>
