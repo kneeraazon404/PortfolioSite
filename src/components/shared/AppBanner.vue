@@ -36,7 +36,7 @@ export default {
       <p
         class="font-general-medium mt-2 text-lg sm:text-xl xl:text-2xl text-center sm:text-left leading-none text-gray-400"
       >
-        An independent and self-motivated tech-savvy
+        Python Django Developer
       </p>
       <div class="flex justify-center sm:block">
         <a
@@ -59,7 +59,7 @@ export default {
     <!-- Banner right illustration -->
     <div class="w-full md:w-2/3 text-right float-right">
       <img v-if="theme === 'light'" src="@/assets/images/developer.svg" alt="Developer" />
-      <img v-else src="@/assets/images/developer-dark.svg" alt="Developer" />
+      <img v-else src="@/assets/images/developer.svg" alt="Developer" />
     </div>
   </section>
 </template>

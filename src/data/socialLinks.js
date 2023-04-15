@@ -3,7 +3,7 @@ export const socialLinks = [
 		id: 1,
 		name: 'Website',
 		icon: 'globe',
-		url: 'https://www.nirajankarki.com.np',
+		url: 'https://www.kneeraazon.me',
 	},
 	{
 		id: 2,
