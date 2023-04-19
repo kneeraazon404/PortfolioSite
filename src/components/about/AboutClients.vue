@@ -12,42 +12,42 @@ export default {
         {
           id: 1,
           title: "django",
-          img: require("@/assets/images/brands/python.png"),
+          img: require("@/assets/images/python.png"),
         },
         {
           id: 1,
           title: "django",
-          img: require("@/assets/images/brands/python.png"),
+          img: require("@/assets/images/django.jpg"),
         },
         {
           id: 1,
           title: "python",
-          img: require("@/assets/images/brands/python.png"),
+          img: require("@/assets/images/flask.png"),
         },
         {
           id: 1,
           title: "python",
-          img: require("@/assets/images/brands/python.png"),
+          img: require("@/assets/images/api.png"),
         },
         {
           id: 1,
           title: "python",
-          img: require("@/assets/images/brands/python.png"),
+          img: require("@/assets/images/sql.png"),
         },
         {
           id: 1,
           title: "python",
-          img: require("@/assets/images/brands/python.png"),
+          img: require("@/assets/images/react.png"),
         },
         {
           id: 1,
           title: "python",
-          img: require("@/assets/images/brands/python.png"),
+          img: require("@/assets/images/docker.jpg"),
         },
         {
           id: 1,
           title: "python",
-          img: require("@/assets/images/brands/python.png"),
+          img: require("@/assets/images/nginx.png"),
         },
       ],
     };
