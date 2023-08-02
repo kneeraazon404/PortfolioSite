@@ -13,7 +13,7 @@ export default {
 <template>
   <div class="flex justify-center items-center text-center">
     <div class="font-general-regular text-lg text-ternary-dark dark:text-ternary-light">
-      &copy; {{ copyrightDate }}
+     All Rights Reserved &copy; {{ copyrightDate }}
       <a
         href="https://github.com/realstoman/vuejs-tailwindcss-portfolio"
         target="__blank"
