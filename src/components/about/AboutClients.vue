@@ -61,7 +61,10 @@ export default {
       class="font-general-medium text-2xl sm:text-3xl text-primary-dark dark:text-primary-light"
     >
       {{ clientsHeading }}
+
     </p>
+    <br>
+    <hr>
     <div class="grid grid-cols-3 sm:grid-cols-4 mt-2 sm:mt-14 gap-8">
       <AboutClientSingle v-for="client in clients" :key="client.id" :client="client" />
     </div>

@@ -26,8 +26,9 @@ export default {
         <counter
           ref="counter"
           :startAmount="0"
-          :endAmount="7"
+          :endAmount="6"
           :duration="1"
+          suffix="+"
           :autoinit="true"
           @finished="alert(`Counting finished!`)"
           class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
@@ -43,9 +44,9 @@ export default {
         <counter
           ref="counter"
           :startAmount="0"
-          :endAmount="21"
+          :endAmount="334"
           :duration="1"
-          suffix="k+"
+          suffix="+"
           :autoinit="true"
           @finished="alert(`Counting finished!`)"
           class="font-general-medium text-4xl font-bold text-secondary-dark dark:text-secondary-light mb-2"
@@ -77,8 +78,9 @@ export default {
         <counter
           ref="counter"
           :startAmount="0"
-          :endAmount="54"
+          :endAmount="55"
           :duration="1"
+          suffix="+"
           :autoinit="true"
           @finished="alert(`Counting finished!`)"
           class="font-general-medium text-4xl font-medium text-secondary-dark dark:text-secondary-light mb-2"

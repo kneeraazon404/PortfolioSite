@@ -13,6 +13,7 @@
     "@vue/cli-plugin-eslint": "^5.0.8",
     "@vue/cli-plugin-router": "^5.0.8",
     "core-js": "^3.27.2",
+    "dompurify": "^3.0.5",
     "feather-icons": "^4.29.0",
     "postcss-flexbugs-fixes": "^5.0.2",
     "postcss-import": "^15.1.0",

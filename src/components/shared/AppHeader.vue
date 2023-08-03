@@ -1,9 +1,9 @@
 <script>
-import ThemeSwitcher from "../ThemeSwitcher";
-import HireMeModal from "../HireMeModal.vue";
 import feather from "feather-icons";
-import AppHeaderLinks from "./AppHeaderLinks.vue";
+import HireMeModal from "../HireMeModal.vue";
+import ThemeSwitcher from "../ThemeSwitcher";
 import Button from "../reusable/Button.vue";
+import AppHeaderLinks from "./AppHeaderLinks.vue";
 
 export default {
   components: {
@@ -78,24 +78,6 @@ export default {
     >
       <!-- Header menu links and small screen hamburger menu -->
       <div class="flex justify-between items-center px-4 sm:px-0">
-        <!-- Header logos -->
-        <div>
-          <router-link to="/"
-            ><img
-              v-if="theme === 'light'"
-              src="@/assets/images/logo-dark.svg"
-              class="w-36"
-              alt="Dark Logo"
-            />
-            <img
-              v-else
-              src="@/assets/images/logo-light.svg"
-              class="w-36"
-              alt="Light Logo"
-            />
-          </router-link>
-        </div>
-
         <!-- Theme switcher small screen -->
         <theme-switcher
           :theme="theme"
@@ -164,6 +146,7 @@ export default {
       aria-modal="Hire Me Modal"
     />
   </nav>
+  
 </template>
 
 <style scoped>

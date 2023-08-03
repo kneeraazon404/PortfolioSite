@@ -1,9 +1,9 @@
 export const socialLinks = [
 	{
 		id: 1,
-		name: 'Website',
-		icon: 'globe',
-		url: 'https://www.kneeraazon.me',
+		name: 'Instagram',
+		icon: 'instagram',
+		url: 'https://www.instagram.com/kneeraazon',
 	},
 	{
 		id: 2,

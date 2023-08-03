@@ -1,7 +1,7 @@
 <script>
-import AboutMe from "@/components/about/AboutMe";
-import AboutCounter from "@/components/about/AboutCounter";
 import AboutClients from "@/components/about/AboutClients";
+import AboutCounter from "@/components/about/AboutCounter";
+import AboutMe from "@/components/about/AboutMe";
 import feather from "feather-icons";
 
 export default {
