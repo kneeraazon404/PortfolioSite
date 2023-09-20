@@ -16,11 +16,11 @@ export function WelcomeSection() {
 
 	let [count, setCount] = useState(0);
 	const [text] = useState([
-		"Build Backend using Django & DRF",
-		"Develop websites using React",
-		"Develop Scripts/Automations using Python",
+		"build Backend using Django & DRF",
+		"develop websites using React",
+		"build Scripts/Automations using Python",
 		"develop websites using Next.js",
-		"Build  Chatbots using ChatGPT and OpenAI",
+		"build  Chatbots using ChatGPT and OpenAI",
 	]);
 
 	const onClick = (e) => scrollToEl(e);
@@ -53,7 +53,7 @@ export function WelcomeSection() {
 							}}
 						>
 							<p>
-								Hello there! I&apos;m <mark>Nirajan</mark>, an <mark>avid</mark> programmer with an eye for innovation.
+								Hello there! I&apos;m <mark>Nirajan</mark>, An <mark>independent</mark> and self-motivated  <mark>tech-savvy</mark>
 							</p>
 						</h1>
 

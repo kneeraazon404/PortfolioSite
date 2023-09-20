@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { LazyMotion, domAnimation, useInView } from "framer-motion";
 
 const TimeLineData = [
-	{ year: 2022, text: "Working as a Fullstack freelancer at Upwork" },
+	{ year: 2022, text: "Working as a full-stack freelancer at Upwork" },
 	{ year: 2021, text: "Worked at  Pathway Tech. as a Python Developer" },
 	{ year: 2020, text: "Worked as a full-stack developer at MeroHealth" },
 	{ year: 2019, text: "Took a 6 months long bootcamp at IWA" },

@@ -4,27 +4,14 @@ import { HeadingDivider } from "components";
 import { TECHNOLOGIES } from "../../../constants";
 
 export function TechnologiesSection() {
-	const textRef = useRef(null);
 	const stackRef = useRef(null);
-	const isTextInView = useInView(textRef, { once: true });
 	const isStackInView = useInView(stackRef, { once: true });
 
 	return (
 		<LazyMotion features={domAnimation}>
 			<section id="tech" className="section">
 				<HeadingDivider title="Tools & Technologies" />
-				<p
-					ref={textRef}
-					tabIndex="0"
-					className="my-5 text-2xl"
-					style={{
-						transform: isTextInView ? "none" : "translateX(-200px)",
-						opacity: isTextInView ? 1 : 0,
-						transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s"
-					}}
-				>
-					I work with the following technologies and tools:
-				</p>
+
 
 				{!!TECHNOLOGIES.length && (
 					<div className="mt-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10">
