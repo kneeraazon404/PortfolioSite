@@ -84,7 +84,7 @@ export function Stats() {
                                 <h3
                                     tabIndex="0"
                                     aria-label={"What do I do in " + item.year}
-                                    className="flex items-center gap-4 text-3xl font-bold"
+                                    className="flex items-center gap-4 text-2xl font-bold"
                                 >
                                     {`${item.value}`}
 
