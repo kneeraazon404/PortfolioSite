@@ -28,7 +28,7 @@ export function TimeLine() {
 
 		if (carouselRef.current) {
 			const scrollLeft = Math.floor(
-				carouselRef.current.scrollWidth * 0.7 * (i / TimeLineData.length)
+				carouselRef.current.scrollWidth * 0.2 * (i / TimeLineData.length)
 			);
 
 			scroll(carouselRef.current, scrollLeft);
@@ -38,7 +38,7 @@ export function TimeLine() {
 	const handleScroll = () => {
 		if (carouselRef.current) {
 			const index = Math.round(
-				(carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.7)) *
+				(carouselRef.current.scrollLeft / (carouselRef.current.scrollWidth * 0.2)) *
 				TimeLineData.length
 			);
 
@@ -78,7 +78,7 @@ export function TimeLine() {
 										? "none"
 										: `${index === 0 ? "translateY(250px)" : `translateY(${200 / index}px)`}`,
 									opacity: isInView ? 1 : 0,
-									transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) ${index === 0 ? 0.5 : 1.05 * index
+									transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) ${index === 0 ? 0.5 : .6 * index
 										}s`
 								}}
 							>

@@ -26,7 +26,7 @@ export function TechnologiesSection() {
 											? "none"
 											: `${index === 0 ? "translateY(250px)" : `translateY(${200 / index}px)`}`,
 										opacity: isStackInView ? 1 : 0,
-										transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) ${index === 0 ? 0 : 0.5 * index
+										transition: `all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) ${index === 0 ? 0 : 0.3 * index
 											}s`
 									}}
 								>
