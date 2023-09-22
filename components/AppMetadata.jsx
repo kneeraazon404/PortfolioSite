@@ -46,13 +46,13 @@ export const AppMetadata = {
 		siteName: `${author} | Portfolio`,
 		images: [
 			{
-				url: "https://vasile-novatchii.netlify.app/screenshot.webp",
+				url: "https://kneeraazon-rezojmbhv-kneeraazon01.vercel.app/screenshot.webp",
 				width: 800,
 				height: 600,
 				alt: "My personal portfolio website"
 			},
 			{
-				url: "https://vasile-novatchii.netlify.app/screenshot.webp",
+				url: "https://kneeraazon-rezojmbhv-kneeraazon01.vercel.app/screenshot.webp",
 				width: 1800,
 				height: 1600,
 				alt: "My personal portfolio website"

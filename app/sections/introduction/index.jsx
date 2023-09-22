@@ -118,7 +118,7 @@ export function WelcomeSection() {
 								className="btn"
 								aria-label="Latest projects"
 							>
-								See my latest projects
+								<span className="btn__glitch">See My Latest projects</span>
 							</Link>
 						</div>
 					</div>
