@@ -7,7 +7,7 @@ const stats = [
     { id: 1, name: 'Stars on Github', value: '332+' },
     { id: 2, name: 'Satisfied clients', value: '60+' },
     { id: 3, name: 'Job Success Score', value: '97.9%' },
-    { id: 4, name: 'Total Earnings', value: '$30k+' },
+    { id: 4, name: 'Total Earnings', value: '$40k+' },
     { id: 5, name: 'Projects Completed', value: '75+' },
 ];
 
