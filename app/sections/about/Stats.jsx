@@ -7,7 +7,7 @@ const stats = [
     { id: 1, name: 'Stars on Github', value: '332+' },
     { id: 2, name: 'Satisfied clients', value: '60+' },
     { id: 3, name: 'Job Success Score', value: '97.9%' },
-    { id: 4, name: 'Total Earnings', value: '$50k+' },
+    { id: 4, name: 'Total Earnings', value: '$30k+' },
     { id: 5, name: 'Projects Completed', value: '75+' },
 ];
 
@@ -84,7 +84,7 @@ export function Stats() {
                                 <h3
                                     tabIndex="0"
                                     aria-label={"What do I do in " + item.year}
-                                    className="flex items-center gap-4 text-2xl font-bold"
+                                    className="flex items-center gap-4 text-xl font-bold"
                                 >
                                     {`${item.value}`}
 
