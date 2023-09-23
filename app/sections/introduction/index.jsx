@@ -94,7 +94,7 @@ export function WelcomeSection() {
 						<p
 							tabIndex="0"
 							ref={ref}
-							className="mt-3 mb-10 text-gray-500 text-xl"
+							className="mt-3 mb-10 text-xl"
 							style={{
 								transform: isInView ? "none" : "translateX(-200px)",
 								opacity: isInView ? 1 : 0,
@@ -118,7 +118,7 @@ export function WelcomeSection() {
 								className="btn"
 								aria-label="Latest projects"
 							>
-								<span className="btn__glitch">See My Latest projects</span>
+								<span className="btn__glitch">See my latest projects</span>
 							</Link>
 						</div>
 					</div>
